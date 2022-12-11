@@ -1,5 +1,5 @@
 name: Run Tests and Deploy
-on: push
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
